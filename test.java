@@ -29,6 +29,9 @@ public class JDBCUtils {
 			Connection conn = DriverManager.getConnection(url, user, password);
 			if (conn!=null) {
 				System.out.println("连接成功");
+				System.out.println("连接成功");
+				System.out.println("连接成功");
+				System.out.println("连接成功");
 				
 			} else {
 			System.out.println("连接失败");
